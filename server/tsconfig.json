@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "target": "ES6",
+      "module": "CommonJS",
+      "esModuleInterop": true,
+      "strict": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "outDir": "./dist"  // Essa linha especifica que os arquivos compilados serão salvos na pasta 'dist'
+    },
+    "include": ["src/**/*.ts"]
+}
+  
